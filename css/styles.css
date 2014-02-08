@@ -8,27 +8,53 @@ footer {
 	text-align: center;
 }
 
-.name{
-	text-align: center;
+h1 {
+	margin-top: -1px;
 }
 
 h2 {
-	background: lime;
-}
-
-.alpha {
-	text-align: right;
-}	
-
-
-header {
-
+	background: #575757;
+	border-radius: 5px;
 }
 
 img {
 	border-radius: 50%;
-	height:15%;
-	width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav a:link,
+nav a:visited {
+	color: #b2b2b2;
+	padding: 10px 10px 10px 25px;
+	text-decoration: none;
+}
+
+nav a:hover {
+  color: lime;
+}
+
+nav li {
+	float: right;
+	list-style: none;
+	margin: 2px -13px 0 33px
+}
+
+ul {
+	list-style: none;
+}
+
+.alpha {
+	text-align: right;
+}
+.job {
+	text-align: center;
+}
+
+.name{
+	font-size: 300%;
+	text-align: center;
 }
 
 #a a {
@@ -49,26 +75,4 @@ img {
 
 #r a {
 	background: url("../img/resume.png") no-repeat 0 center;
-}
-
-nav {
-
-}
-nav a:link,
-nav a:visited {
-	padding: 10px 10px 10px 25px;
-}
-
-nav li {
-	float: left;
-	list-style: none;
-	margin: 0 0 0 20px
-}
-
-section {
-
-}
-
-ul {
-	list-style: none;
 }

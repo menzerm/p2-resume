@@ -5,7 +5,8 @@
   <title>Resume</title>
 	
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/grid.css">				
+  <link rel="stylesheet" href="css/grid.css">
+  <link href='http://fonts.googleapis.com/css?family=Nunito:400,700,300' rel='stylesheet' type='text/css'>			
   <link rel="stylesheet" href="css/styles.css">	
 	
 </head>
@@ -14,24 +15,66 @@
 	<div class="container showgrid">
 		
 		<!-- Your Content -->
-		<h1>Myra Menzer: Resume</h1>
+		<header class="grid_3">
+			<h1>Resume</h1>
+		</header>
+
+		<nav class= "grid_9 omega" role='navigation'>
+		  <ul class="nav">
+		    <li id="h"><a href="#">Home</a></li>
+		    <li id="p"><a href="#">Portfolio</a></li>
+		    <li id="a"><a href="#">About</a></li>
+		    <li id="r"><a href="#">Resume</a></li>
+		    <li id="c"><a href="#">Contact Me</a></li>
+		  </ul>
+		</nav>
 
 		<img src="img/me.jpg">
 
-		<h2>Work Experience</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+		<h1 class="name">Myra Menzer</h1>
 
-		<h2>Tools</h2>
-			<ul>
-				<li>CSS</li>
-				<li>HTML5</li>
-				<li>Illustrator</li>
-				<li>InDesign</li>
-				<li>Photoshop</li>
-			</ul>
+		<article>
+			<section class="grid_6 alpha">
+				<h2>Tools</h2>
+					<ul>
+						<li>CSS</li>
+						<li>HTML5</li>
+						<li>Illustrator</li>
+						<li>InDesign</li>
+						<li>Photoshop</li>
+					</ul>
+			</section>
 
+			<section class="grid_6 omega">
+				<h2>Experience</h2>
+					<h3>Hemloq Productions</h3>
+						<ul>
+							<li><p>Created the logo for the company.</p></li>
+							<li><p>Created fliers and ticket designs for their events.</p></li>
+						</ul>
+			</section>
+
+			<section class="grid_6 alpha">
+				<h2>Education</h2>
+					<p>Eastern Washington University</p>
+					<p >Major: Visual Communication Design</p>
+					<p>Minor: Art</p>
+					<p>GPA: 3.59</p>
+			</section>
+
+			<section class="grid_6 omega">
+				<h2>Feedback</h2>
+						<p>Easy to work with</p>
+						<p>Awesome talent</p>
+						<p>Fountain of ideas</p>
+			</section>
+
+		</article>
+
+		<footer class="grid_12">
+			<hr>
+			<p>&#169; 2014 Myra Menzer</p>
+		</footer>
 		<!-- Clearfix -->
 		<div class="clear"></div>
 

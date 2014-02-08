@@ -1,4 +1,71 @@
 body {
+	background: url("../img/bg.png");
+	color: #b2b2b2;
+	font-family: 'Nunito' normal, sans-serif;
+}
+
+footer {
+	text-align: center;
+}
+
+.name{
+	text-align: center;
+}
+
+h2 {
+	background: lime;
+}
+
+.alpha {
+	text-align: right;
+}	
+
+
+header {
+
+}
+
+img {
+	border-radius: 50%;
+	height:15%;
+	width: 15%;
+}
+
+#a a {
+	background: url("../img/about.png") no-repeat 0 center;
+}
+
+#c a {
+	background: url("../img/contact.png") no-repeat 0 center;
+}
+
+#h a {
+	background: url("../img/home.png") no-repeat 0 center;
+}
+
+#p a {
+	background: url("../img/portfolio.png") no-repeat 0 center;
+}
+
+#r a {
+	background: url("../img/resume.png") no-repeat 0 center;
+}
+
+nav {
+
+}
+nav a:link,
+nav a:visited {
+	padding: 10px 10px 10px 25px;
+}
+
+nav li {
+	float: left;
+	list-style: none;
+	margin: 0 0 0 20px
+}
+
+section {
 
 }
 

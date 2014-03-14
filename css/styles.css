@@ -1,3 +1,18 @@
+a:link,
+a:visited {
+    color: #23f7f7;
+	font-family: 'Nunito' normal, sans-serif;
+    text-decoration: none;
+}
+
+a:focus {
+	border: 3px #23f7f7 solid
+}
+
+a:hover {
+	color: #6abd45;
+}
+
 body {
 	background: url("../img/bg.png");
 	color: #b2b2b2;
@@ -5,16 +20,13 @@ body {
 }
 
 footer {
+	color: #6abd45;
+	font-size: .5em;
 	text-align: center;
 }
 
-h1 {
-	margin-top: -1px;
-}
-
-h2 {
-	background: #575757;
-	border-radius: 5px;
+h1,h2 {
+	color: #6abd45;
 }
 
 img {
@@ -22,6 +34,11 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+nav {
+	font-size: 1.05em;
+	text-transform: uppercase;
 }
 
 nav a:link,
@@ -32,7 +49,7 @@ nav a:visited {
 }
 
 nav a:hover {
-  color: lime;
+  color: #6abd45;
 }
 
 nav li {
@@ -45,9 +62,6 @@ ul {
 	list-style: none;
 }
 
-.alpha {
-	text-align: right;
-}
 .job {
 	text-align: center;
 }
@@ -55,24 +69,4 @@ ul {
 .name{
 	font-size: 300%;
 	text-align: center;
-}
-
-#a a {
-	background: url("../img/about.png") no-repeat 0 center;
-}
-
-#c a {
-	background: url("../img/contact.png") no-repeat 0 center;
-}
-
-#h a {
-	background: url("../img/home.png") no-repeat 0 center;
-}
-
-#p a {
-	background: url("../img/portfolio.png") no-repeat 0 center;
-}
-
-#r a {
-	background: url("../img/resume.png") no-repeat 0 center;
 }

@@ -63,6 +63,13 @@ ul {
 	list-style: none;
 }
 
+.logo img {
+	border-radius: 0;
+	display: inline;
+	height: 5em;
+	margin-top: -2em;
+}
+
 .job {
 	text-align: center;
 }
